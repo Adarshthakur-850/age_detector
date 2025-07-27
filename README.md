@@ -52,7 +52,7 @@ git clone https://github.com/yourusername/Age_Detector.git
 cd Age_Detector
 
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
 pip install -r requirements.txt
 
@@ -71,14 +71,14 @@ bash
 Copy
 Edit
 Age_Detector/
-├── age_detector.py              # Main script
-├── README.md                    # Documentation
-├── requirements.txt             # List of Python dependencies
+├── age_detector.py             
+├── README.md                    
+├── requirements.txt             
 ├── models/
-│   ├── age_deploy.prototxt      # Model architecture
-│   └── age_net.caffemodel       # Pre-trained weights
+│   ├── age_deploy.prototxt      
+│   └── age_net.caffemodel       
 ├── assets/
-│   └── screenshot.png           # Sample output images
+│   └── screenshot.png           
 📸 Screenshots
 
 🧠 How It Works
